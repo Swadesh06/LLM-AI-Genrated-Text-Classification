@@ -38,6 +38,20 @@ RoBERTa performed poorer despite being a more adavnced model due to overfitting 
 
 <img width="408" alt="Screenshot 2024-01-15 at 10 04 34 PM" src="https://github.com/Swadesh06/LLM-AI-Genrated-Text-Classification/assets/129365476/5576d19f-0469-4718-bbe4-329841930082">
 
-BERT 
+BERT took a very long time to train and I was unsucessful in getting a complete first run on the dataset , so I couldn't save the model in time for submission, and had to leave the tokenzier files in the output directory itself.
+
+I did manage to save the tokenized values but they were later deemed unnecessary due to the firther optimisations I made in the tokenisation process of BERT
+
+## Steps Taken:
+
+- Gathering of larger datasets
+- Tokenizinng text for each model
+- optmizing model for reduced complexity
+- Random Weight Samling to address overfiiting
+- Gradiet clipping
+- Optimizing tokensation lengths for BERT and RoBERTa by implementing function to decide max_len value
+- Tracking progress by progress lines inside the code
+- Saving the model weights and tokenized vakues to reduce time taken for subsequent runs in tokensiing
+
 
 
