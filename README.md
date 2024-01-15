@@ -52,6 +52,8 @@ I did manage to save the tokenized values but they were later deemed unnecessary
 - Optimizing tokensation lengths for BERT and RoBERTa by implementing function to decide max_len value
 - Tracking progress by progress lines inside the code
 - Saving the model weights and tokenized vakues to reduce time taken for subsequent runs in tokensiing
+- Saved model first into kaggle working directory and then downloaded and uploaded into input directory to enable offline model running
+
 
 
 
